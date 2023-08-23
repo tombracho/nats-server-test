@@ -5,7 +5,7 @@
 dokcer compose up --build
 ```
 
-### Curl requests
+### requests
 ```shell
 #subscribe to time ticker
 nats sub time.tick -s nats://localhost:4222
