@@ -1,6 +1,6 @@
 # nats-server-test
 
-## Launching 
+## Launching
 ```shell
 dokcer compose up --build
 ```

@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  nats:
+    image: nats:latest
+    ports:
+      - "4222:4222"
+      - "6222:6222"
+      - "8222:8222"
+
+  app:
+    build: .
+    depends_on:
+      - nats
+#    command: ["sh", "-c", "echo start && sleep 10 && echo stop && ./main"]
