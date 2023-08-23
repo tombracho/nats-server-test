@@ -2,7 +2,7 @@
 
 ## Launching
 ```shell
-dokcer compose up --build
+docker compose up --build
 ```
 
 ### requests
